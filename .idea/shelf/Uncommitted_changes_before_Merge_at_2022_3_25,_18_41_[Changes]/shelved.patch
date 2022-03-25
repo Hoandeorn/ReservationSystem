@@ -1,0 +1,17 @@
+Index: main.cpp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#include <iostream>\n\nint main() {\n    std::cout << \"Hello, World!\" << std::endl;\n    return 0;\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.cpp b/main.cpp
+--- a/main.cpp	(revision 8875fad38b33922a2ac3e899371be9f86f9d3eea)
++++ b/main.cpp	(date 1648204776805)
+@@ -2,5 +2,6 @@
+ 
+ int main() {
+     std::cout << "Hello, World!" << std::endl;
++    std::cout << "Add in master" << std::endl;
+     return 0;
+ }

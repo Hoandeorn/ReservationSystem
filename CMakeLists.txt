@@ -4,4 +4,4 @@ project(ReservationSystem)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(ReservationSystem
-        main.cpp)
+        main.cpp Identity.cpp Identity.h Student.cpp Student.h Teacher.cpp Teacher.h Administrator.cpp Administrator.h globalFile.h Precedure.h Precedure.cpp)
